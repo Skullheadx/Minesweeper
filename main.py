@@ -2,6 +2,7 @@ from setup import *
 from game import Game
 from menus import Lose, Win
 
+
 def main():
 	scene = Game()
 	is_running = True
@@ -20,7 +21,8 @@ def main():
 			scene = Lose(screen)
 
 		pygame.display.update()
-		delta = clock.tick(60)/1000
+		delta = clock.tick(60) / 1000
+
 
 if __name__ == "__main__":
 	main()
