@@ -1,5 +1,3 @@
-import pygame.event
-
 from setup import *
 from grid import Grid
 
@@ -7,7 +5,7 @@ from grid import Grid
 class Game:
 
 	def __init__(self):
-		self.grid = Grid(20, 20, 50)
+		self.grid = Grid(10, 10, 5)
 		self.game_over = False
 
 	def update(self, delta):
